@@ -1,0 +1,43 @@
+body {
+  background-color: #f8fbff;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar .nav-link.active {
+  color: #0d6efd !important;
+  font-weight: 600;
+}
+.hero {
+  background: linear-gradient(120deg, #cde9ff, #e3f2fd);
+  padding: 120px 0;
+  text-align: center;
+  color: #004085;
+}
+.hero h1 {
+  font-weight: 700;
+  animation: fadeInDown 1s ease;
+}
+.btn-blue {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+.btn-blue:hover {
+  background-color: #0b5ed7;
+}
+@keyframes fadeInDown {
+  from {opacity:0; transform: translateY(-30px);}
+  to {opacity:1; transform: translateY(0);}
+}
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
